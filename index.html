@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <title> Encriptador </title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="logo de alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="text-area" cols="60" rows="10" placeholder=" Ingresar el texto aqui. "></textarea> 
+            <center> 
+                <p class="informacion"> Solo ingrese letras minusculas y sin acentos porfavor. </p>
+                <button class="btn-encriptar" onclick="btnEncriptar()"> Encriptar </button> 
+                <button class="btn-desencriptar" onclick="btnDesencriptar()"> Desencriptar </button>
+            </center>
+        </section>
+        <section>
+            <div class="mensaje">
+                <p id="t-mensaje" class="texto-mensaje"></p> 
+                <button class="btn-copiar" onclick="btnCopiar()"> Copiar </button>
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script> 
+</body>
+<footer>
+    <p>Creado por César Ramírez</p>
+    <div class="social-icons">
+      <a href="https://github.com/RASECRE" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/c%C3%A9sar-ram-097334272/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://discordapp.com/users/Tal#0001" target="_blank"><i class="fab fa-discord"></i></a>
+    </div>
+  </footer>
+  
+</html>

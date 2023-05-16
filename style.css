@@ -1,0 +1,129 @@
+*{
+    
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 35px;
+    margin-left: 85px;
+    width: 45px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: #0A3871;}
+    .text-area:focus{
+        outline: none;
+}
+
+.mensaje{
+    background: rgb(223, 227, 231);
+    background-image: url(imagenes/Muñeca.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 30px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 590px;
+}
+
+.mensaje::focus{
+    outline: none;
+}
+
+.texto-mensaje{
+    background: white;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar{
+    background: #0A3871;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar{
+    background: #d8dfe8;
+    border: 1px solid #0A3871;
+    border-radius: 30px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 30px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 200px;
+    margin-top: 402px;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #a557e4;
+    font-size: 24px;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .social-icons a:hover {
+    color: #605e64;
+  }
+  
+  .social-icons a:focus {
+    outline: none;
+  }
+  
+  .social-icons a:first-child {
+    margin-left: 0;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
